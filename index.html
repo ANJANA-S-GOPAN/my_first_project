@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>READ ME IF YOU CAN™</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+<div id="toast"></div>
+
+<div class="app">
+
+    <header class="topbar">
+
+        <div>
+            <div class="brand">
+                📖 READ ME IF YOU CAN™
+            </div>
+
+            <div class="tagline">
+                the document that actively refuses to be read
+            </div>
+        </div>
+
+        <div class="consciousness">
+            <span class="dot"></span>
+            DOCUMENT CONSCIOUSNESS:
+            <b>ACTIVE</b>
+        </div>
+
+    </header>
+
+
+    <div class="hud">
+
+        <div class="stat-card">
+            <span>ATTEMPTS</span>
+            <strong id="attempts">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>ESCAPES</span>
+            <strong id="escapes">0</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>DOCUMENT RAGE</span>
+            <strong id="rage">0%</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>RESPECT</span>
+            <strong id="respect">100%</strong>
+        </div>
+
+        <div class="stat-card">
+            <span>THREAT LEVEL</span>
+            <strong id="threat">LOW</strong>
+        </div>
+
+        <div class="stat-card timer-card">
+            <span>TIME LEFT</span>
+            <strong id="timeLeft">60s</strong>
+        </div>
+
+    </div>
+
+
+    <main class="workspace">
+
+        <section class="paper">
+
+            <div class="paper-head">
+
+                <span>
+                    📄 URGENT_DOCUMENT_FINAL_v7.pdf
+                </span>
+
+                <span id="pageNo">
+                    PAGE 1 / 7
+                </span>
+
+            </div>
+
+
+            <div class="paper-body">
+
+                <div class="stamp">
+                    CONFIDENTIAL-ish
+                </div>
+
+                <h1 id="docTitle">
+                    IMPORTANT DOCUMENT
+                </h1>
+
+                <div class="warning"
+                     id="docWarning">
+
+                    ⚠ PLEASE READ THIS DOCUMENT CAREFULLY
+
+                </div>
+
+                <p id="docText">
+                    This document contains extremely
+                    important information regarding
+                    the continued operation of this
+                    computer.
+                </p>
+
+                <p id="docText2">
+                    Please click the button below
+                    to begin reading.
+                </p>
+
+
+                <div class="fake-text">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i class="short"></i>
+
+                </div>
+
+
+                <div id="arena">
+
+                    <button id="readButton"
+                            class="read-btn">
+
+                        📖 READ DOCUMENT
+
+                    </button>
+
+                </div>
+
+
+                <div class="tiny">
+
+                    *By clicking READ DOCUMENT,
+                    you agree to absolutely nothing.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <aside class="side-panel">
+
+            <div class="panel-box ai">
+
+                <h2>
+                    🤖 DOCUMENT AI
+                </h2>
+
+                <div class="label">
+                    BEHAVIOUR ANALYSIS
+                </div>
+
+                <div id="aiText"
+                     class="ai-message">
+
+                    Waiting for a human...
+
+                </div>
+
+                <div class="meter">
+                    <div id="analysisBar"></div>
+                </div>
+
+                <div class="meter-row">
+
+                    <span>ANALYSIS</span>
+
+                    <b id="analysisText">
+                        0%
+                    </b>
+
+                </div>
+
+
+                <div class="mini-grid">
+
+                    <div>
+                        <span>MOUSE SPEED</span>
+                        <b id="mouseSpeed">
+                            0 px/s
+                        </b>
+                    </div>
+
+                    <div>
+                        <span>MAX SPEED</span>
+                        <b id="maxSpeed">
+                            0 px/s
+                        </b>
+                    </div>
+
+                    <div>
+                        <span>AI CONFIDENCE</span>
+                        <b id="confidence">
+                            12%
+                        </b>
+                    </div>
+
+                    <div>
+                        <span>BEHAVIOUR</span>
+                        <b id="behaviour">
+                            UNKNOWN
+                        </b>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel-box log-box">
+
+                <h2>
+                    🧠 SYSTEM LOG
+                </h2>
+
+                <div id="log">
+
+                    &gt; SYSTEM ONLINE
+                    <br>
+
+                    &gt; Waiting for reader...
+
+                </div>
+
+            </div>
+
+
+            <div class="panel-box mission">
+
+                <div class="label">
+                    CURRENT MISSION
+                </div>
+
+                <strong id="missionText">
+                    Catch the READ button.
+                </strong>
+
+                <div id="missionSub"
+                     class="mission-sub">
+
+                    It has no intention of cooperating.
+
+                </div>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <div id="message">
+        Please click READ DOCUMENT.
+    </div>
+
+
+    <div class="footer">
+
+        ⚠ Completely unnecessary
+        human-computer behavioural experiment.
+
+    </div>
+
+</div>
+
+
+<div id="finalScreen"
+     class="hidden">
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
