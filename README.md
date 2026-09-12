@@ -1,4 +1,4 @@
-SENTIENTCURSOR 🎯
+THE SENTIENT CURSOR 🎯
 Basic Details
 Team Name: one brain cell
 Team Members
@@ -104,8 +104,12 @@ Not applicable - software-only project.
 
 
 Project Demo
+
 [google drive](https://drive.google.com/file/d/1udkT2_7_Ldu_SCD-Z96Jj9r4Oyw2Qq_O/view?usp=sharing)
 The video demonstrates the complete experience, including the escaping READ button, mouse behaviour tracking, fake AI analysis, button clones, increasing difficulty, sound effects, and the final result screen.
+
+live link:
+https://my-first-projectbb.onrender.com/
 
 Team Contributions
 ANJANA S GOPAN:Javascript
